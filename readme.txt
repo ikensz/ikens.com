@@ -23,3 +23,6 @@
 
 22、git checkout -b dev 创建dev分支并从master切换dev分支上 相当于：git branch dev(创建dev分支),git checkout dev(切换到dev分支上)
 23、git branch 会列出所有分支，带*的表示当前分支
+24、git checkout master 当dev分支工作完成之后，切换到master分支上
+25、git merge dev 将dev分支上的工作内容合并到master分支上
+
