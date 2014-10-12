@@ -20,3 +20,6 @@
 19、git push -u origin master 将本地库的所有内容推送到远程库上
 20、只要对本地库做了修改都可以使用：git push origin master 指令提交到远程库
 21、 git clone git@github.com:ikensz/ikens.com.git 从远程库上克隆一份到本地库
+
+22、git checkout -b dev 创建dev分支并从master切换dev分支上 相当于：git branch dev(创建dev分支),git checkout dev(切换到dev分支上)
+23、git branch 会列出所有分支，带*的表示当前分支
